@@ -5,7 +5,7 @@ Simple reverse proxy for images on sites such as SNS and Footasylum which block 
 
 Also includes a very simple yet effective caching system to stop the same image being downloaded everytime it is requested
 
-### Non-cached VS Cached response times ###
+##### Non-cached VS Cached response times #####
 (Note all times are averages over 10 requests)
 ```
 Non-Cached (localhost): 450ms
