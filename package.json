@@ -1,0 +1,24 @@
+{
+  "name": "Reverse Image Proxy",
+  "version": "1.0.0",
+  "description": "Proxy images that are usually blocked by web CDNs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexabrahall/image-proxy.git"
+  },
+  "keywords": [
+    "image",
+    "proxy"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
