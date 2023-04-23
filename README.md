@@ -19,4 +19,3 @@ If there are any bugs / improvements that can be made, feel free to make a PR.
 
 Please note this is mostly for educational purposes rather than commercial.
 
-You can access a live version at `https://murmuring-ocean-58115.herokuapp.com/proxy?url=YOUR_IMAGE_URL_HERE`

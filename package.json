@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Proxy images that are usually blocked by web CDNs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node ./src/index.js"
   },
@@ -17,8 +18,11 @@
   "author": "Alex",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.3.6",
     "express": "^4.17.1",
+    "got": "^12.6.0",
     "node-fetch": "^2.6.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "unirest": "^0.6.0"
   }
 }

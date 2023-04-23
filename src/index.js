@@ -1,15 +1,19 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3000
-const fs = require('fs');
-const crypto = require('crypto');
-const download = require('../src/helpers/download');
+import express from 'express';
+import fs from 'fs';
+import crypto from 'crypto';
+import download from './helpers/download.js';
+
+const app = express();
+const port = process.env.PORT || 3000;
 
 
 const PATH_TO_ASSETS = './src/assets/';
 
 
 
+if(!fs.existsSync(PATH_TO_ASSETS)){
+    fs.mkdirSync(PATH_TO_ASSETS)
+}
 
 
 
